@@ -1,0 +1,23 @@
+#função que não recebe nem retorna parâmetros
+def aberturaCalculardora():
+    print("************Bem vindo a calculadora Python***************")
+#função que recebe mas não devolve parâmetro
+def soma(x,y):
+    print(x+y)
+
+#função que recebe e retorna parâmetros
+def subtracao(x,y):
+    return x-y
+
+#função que não recebe mas retorna parâmetros
+def buscaNome():
+    return "Fulano"
+
+aberturaCalculardora()
+
+soma(4,5)
+
+resultado=subtracao(5,4)
+print("Resultado da subtração:",resultado)
+nome=buscaNome()
+
